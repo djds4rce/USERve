@@ -23,9 +23,9 @@
          function get_right_sidebar(){
          global $user;
          if(!$user->signed)
-         require_once("areas/login-form.php");
+        include("areas/login-form.php");
          else
-         require_once("areas/logout.php");
+         include("areas/logout.php");
         }
       ENDIF;        
      
@@ -34,16 +34,16 @@
          function get_left_sidebar(){
         global $user;
         if(!$user->signed)
-         require_once("areas/left-sidebar-public.php");
+        include("areas/left-sidebar-public.php");
         else
-         require_once("areas/left-sidebar-loggedin.php");
+        include("areas/left-sidebar-loggedin.php");
         }
       ENDIF;
 
        
       if(!function_exists('get_footer()')):
 	function get_footer(){
-        require_once("areas/footer.php");
+       include("areas/footer.php");
         }
      ENDIF;
      if(!function_exists('get_slug_content')):
@@ -54,10 +54,4 @@
 			<p>Exclusively <em>for</em> <a href=\"http://www.smashingmagazine.com\">Smashing Magazine</a></p>";
       }
     ENDIF;
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 4cc94528d4e1579ced31ef846a26d6e2fe913e16
 ?>
-
