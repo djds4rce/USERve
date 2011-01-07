@@ -10,11 +10,10 @@ require_once("../models/config.php");
 require_once("../models/config.php");
              	if(!(mysql_query("SELECT * FROM users;")>0))
         {
-<<<<<<< HEAD
+
              if(isset($_GET["install"]))
-=======
-             if(isset($_GET["id"]==install))
->>>>>>> 4cc94528d4e1579ced31ef846a26d6e2fe913e16
+        
+
                 {    		$sql="CREATE TABLE IF NOT EXISTS `users` (
 		        `user_id` int(7) NOT NULL AUTO_INCREMENT,
   		        `username` varchar(15) NOT NULL,
@@ -31,11 +30,11 @@ require_once("../models/config.php");
                      echo"<p>install sucessfull,please delete the install folder to continue</p>";
                     }
               else {
-<<<<<<< HEAD
+
                   echo"<a href=\"?install=true\">Install YACMS</a>";
-=======
-                   echo"<a href="?id=install\">Install YACMS</a>";
->>>>>>> 4cc94528d4e1579ced31ef846a26d6e2fe913e16
+
+
+
 
                    }
         }
