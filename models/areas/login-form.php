@@ -8,8 +8,8 @@
             
           
             if($user->signed){
-            header('location:memberarea.php');
-
+           // header('location:memberarea.php');
+         echo " <script language=\"javascript\" type=\"text/javascript\">window.location = \"memberarea.php\";</script>";
             die();
                 
 

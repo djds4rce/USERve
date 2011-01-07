@@ -2,7 +2,9 @@
    if(!EMPTY($_GET)){
   	 if($_GET['action']==logout){
          $user->logout();
-          header('location:index.php');
+//          header('location:index.php');
+         
+        echo " <script language=\"javascript\" type=\"text/javascript\">window.location = \"memberarea.php\";</script>";
          die(); 
          }
    }
