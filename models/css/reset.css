@@ -1,0 +1,25 @@
+/*
+Style name : reset.css
+Purpose : Reset browser's default style
+Date modified : 17/12/2007
+*/
+
+/* Dengan nama Allah yang Maha Pengasih lagi Maha Penyayang... */
+
+/* Global reset */
+*{margin:0;padding:0;}
+
+/* Reset the headers  */
+h1,h2,h3,h4{font-size:100%;}
+
+/* Removes list style */
+ol,ul,li{list-style:none;}
+
+/* Removes border from image */
+fieldset,img{border:none;}
+
+/* Removes links underline */
+a{text-decoration:none;}
+
+/* Remove horizontal ruler */
+hr{display:none;}
