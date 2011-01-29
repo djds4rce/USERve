@@ -1,13 +1,13 @@
-h1.USERve
+#USERve
 
 This is a implementaion of the Uflex user class. I did this implementaion as a project to better understand PHP  during my week long vacations. I would not suggest using this for any actual projects, but would be great to learn PHP devolopment. The template implemention is a little messed up, I had a  templating feature in mind(like in wordpress) but sadly it ended up this way. If you need a good user managment script you can look into usercake (http://usercake.com)
-h2.Install instructions
- * *Go to models/settings.php fill in the details of the databasename,username,password etc.
- * *click on install or if that does not work for you, you can manuall copy and execute sql.txt
+##Install instructions
+ * Go to models/settings.php fill in the details of the databasename,username,password etc.
+ * click on install or if that does not work for you, you can manuall copy and execute sql.txt
 =======
 This is a implementation of the Uflex user class. I did this implementation as a project to better understand PHP  during my week long vacations. I would not suggest using this for any actual projects, but would be great to learn PHP development. The template implementation is a little messed up, I had a  templating feature in mind(like in wordpress) but sadly it ended up this way. If you need a good user management script you can look into usercake (http://usercake.com)
-h2.Install instructions
- * *Go to models/settings.php fill in the details of the databasename,username,password etc.
- * *click on install or if that does not work for you, you can manually copy and execute sql.txt
+##Install instructions
+ * Go to models/settings.php fill in the details of the databasename,username,password etc.
+ * click on install or if that does not work for you, you can manually copy and execute sql.txt
 
- * *Thats it we are done
+ * Thats it we are done
